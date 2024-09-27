@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+  background-color: rgb(255, 179, 0);
+}
+h1{
+  text-align:center;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700; font-style:
+  normal; color:#ef3340;
+}
+h2 {
+  text-align:center;
+}
+.center-arial {
+  text-align: center;
+  font-family: "Arial";
+}
+
+.funkydiv {
+  margin:20px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  padding:25px;
+  background-color:#ffffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+table {
+  width:50%;
+  border-collapse: collapse;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #0f0f0f;
+}
+
+table caption {
+  font-size:1em;
+  font-weight: 700;
+  margin-bottom:10px;
+  color:#ffffff;
+}
+
+table thead tr th {
+  background-color:#ef3340;
+  padding:5px;
+  color: white;
+  font-weight: 700;
+  border: 2px solid #0f0f0f;
+}
+
+table tbody tr {
+  background-color:#ffffff;
+}
+
+table tbody tr:hover {
+  color: rgb(80, 217, 255);
+  font-weight: 700;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tbody tr td{
+  padding:5px;
+  font-weight: 400;
+  border: 2px solid #0f0f0f;
+}
+
+form label, form input.submited {
+  margin: 10px 0 2px 0;
+  display:inline-block;
+}

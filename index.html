@@ -4,13 +4,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name - Links</title>
+  <title>Brown Squirrel Design</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
   <header>
-    <h1>Your Name</h1>
-    <h2>Welcome to My Page!</h2>
+    <h1>Brown Squirrel Design</h1>
   </header>
   <nav>
     <ul>
@@ -23,6 +23,62 @@
     This page contains a list of useful links to my online profiles and
     projects. Feel free to explore!
   </p>
+
+  <div class="funkydiv">
+    <p>Text in the div</p>
+  </div>
+
+  <table>
+    <caption>
+      Just some data
+    </caption>
+    <thead>
+      <tr>
+        <th>Column 1</th>
+        <th>Column 2</th>
+        <th>Column 3</th>
+        <th>Column 4</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Text 1</td>
+        <td colspan="2">Text 2</td>
+
+        <td>Text 4</td>
+      </tr>
+      <tr>
+        <td rowspan="2">Text 1</td>
+        <td>Text 2</td>
+        <td>Text 3</td>
+        <td>Text 4</td>
+      </tr>
+      <tr>
+
+        <td>Text 2</td>
+        <td>Text 3</td>
+        <td>Text 4</td>
+      </tr>
+    </tbody>
+  </table>
+  <br />
+  <br />
+  <div>
+    <form>
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" required><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+      <br/>
+      <label for="textBox1">TextArea Box:</label>
+      <br/>
+      <textarea id="textBox1" name="textBox1" rows="4" cols="50" maxlength="250">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusantium.
+    </textarea>
+    <br/>
+    <input class="submited" type="submit" value="Send Request" />
+    </form>
+  </div>
+
 </body>
 
 </html>
